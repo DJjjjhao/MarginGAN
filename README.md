@@ -5,7 +5,7 @@ This repository is the implementation of the paper "MarginGAN: Adversarial Train
 
 To train the network, an example is as follows:
 ```
-python3 main.py \
+python main.py \
   --gan_type MarginGAN \
   --num_labels 600 
   --lrC 0.1 
