@@ -10,8 +10,19 @@ python main.py \
   --num_labels 600 
   --lrC 0.1 
   --epoch 50
-```  
-2."further" is the implementation of **Experiment on SVHN and CIFAR-10** of the paper. Thank the authors of [mean teacher](https://github.com/CuriousAI/mean-teacher), our code is widely adapted from their repositories.
+```
+
+2."ablation" is the implementation of **Ablation Study on MNIST** of the paper. 
+To train the network, an example is as follows:
+```
+python3 main.py \
+--gan_type MarginGAN_UG \
+--num_labels 600 \
+--lrC 0.01 \
+--epoch 50
+```
+
+3."further" is the implementation of **Experiment on SVHN and CIFAR-10** of the paper. Thank the authors of [mean teacher](https://github.com/CuriousAI/mean-teacher), our code is widely adapted from their repositories.
 
 To train the network, an example is as follows:
 ```
