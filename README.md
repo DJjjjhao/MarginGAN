@@ -15,7 +15,7 @@ python main.py \
 2."ablation" is the implementation of **Ablation Study on MNIST** of the paper. 
 To train the network, an example is as follows:
 ```
-python3 main.py \
+python main.py \
 --gan_type MarginGAN_UG \
 --num_labels 600 \
 --lrC 0.01 \
