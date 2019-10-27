@@ -11,7 +11,7 @@ python3 main.py \
   --lrC 0.1 
   --epoch 50
 ```  
-2."Combined with Mean Teacher" is the implementation of **MarginGAN Combined with Mean Teacher** of the paper. Thank the authors of [mean teacher](https://github.com/CuriousAI/mean-teacher), our code is widely adapted from their repositories.
+2."Combined with Mean Teacher" is the implementation of **Experiment on SVHN and CIFAR-10** of the paper. Thank the authors of [mean teacher](https://github.com/CuriousAI/mean-teacher), our code is widely adapted from their repositories.
 
 To train the network, an example is as follows:
 ```
