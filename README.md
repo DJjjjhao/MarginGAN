@@ -5,13 +5,13 @@ This repository is the implementation of the paper "MarginGAN: Adversarial Train
 
 To train the network, an example is as follows:
 ```
-python3 main.py \
+python main.py \
   --gan_type MarginGAN \
   --num_labels 600 
   --lrC 0.1 
   --epoch 50
 ```  
-2."Combined with Mean Teacher" is the implementation of **Experiment on SVHN and CIFAR-10** of the paper. Thank the authors of [mean teacher](https://github.com/CuriousAI/mean-teacher), our code is widely adapted from their repositories.
+2."further" is the implementation of **Experiment on SVHN and CIFAR-10** of the paper. Thank the authors of [mean teacher](https://github.com/CuriousAI/mean-teacher), our code is widely adapted from their repositories.
 
 To train the network, an example is as follows:
 ```
