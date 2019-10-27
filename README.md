@@ -7,8 +7,8 @@ To train the network, an example is as follows:
 ```
 python main.py \
   --gan_type MarginGAN \
-  --num_labels 600 
-  --lrC 0.1 
+  --num_labels 600 \
+  --lrC 0.1 \
   --epoch 50
 ```
 
